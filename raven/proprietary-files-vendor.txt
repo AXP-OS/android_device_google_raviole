@@ -8,7 +8,6 @@ vendor/bin/dmd
 vendor/bin/hw/android.hardware.biometrics.fingerprint-service.goodix
 vendor/bin/hw/android.hardware.bluetooth@1.1-service.bcmbtlinux
 vendor/bin/hw/android.hardware.confirmationui@1.0-service.trusty.vendor
-vendor/bin/hw/android.hardware.drm-service.widevine
 vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging
 vendor/bin/hw/android.hardware.identity@1.0-service.citadel
 vendor/bin/hw/android.hardware.input.processor-service
@@ -148,7 +147,6 @@ vendor/etc/displayconfig/display_id_4619827677550801152.xml
 vendor/etc/init/android.hardware.bluetooth@1.1-service.bcmbtlinux.rc
 vendor/etc/init/android.hardware.camera.provider@2.7-service-google-apex.rc
 vendor/etc/init/android.hardware.confirmationui@1.0-service.trusty.vendor.rc
-vendor/etc/init/android.hardware.drm-service.widevine.rc
 vendor/etc/init/android.hardware.edgetpu.logging@service-edgetpu-logging.rc
 vendor/etc/init/android.hardware.identity@1.0-service.citadel.rc
 vendor/etc/init/android.hardware.input.processor-service.rc
@@ -229,7 +227,6 @@ vendor/etc/vintf/manifest/android.hardware.security.keymint-service.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.weaver@1.0-service.citadel.xml
 vendor/etc/vintf/manifest/dmd.xml
 vendor/etc/vintf/manifest/fingerprint-goodix.xml
-vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml
 vendor/etc/vintf/manifest/manifest_input.processor-service.xml
 vendor/etc/vintf/manifest/manifest_radioext.xml
 vendor/etc/vintf/manifest/manifest_wifi_ext.xml
@@ -1187,7 +1184,6 @@ vendor/lib64/libmahalcontroller.so
 vendor/lib64/libmetrics_logger.so
 vendor/lib64/libmodem_svc_proto.so
 vendor/lib64/libnos_citadeld_proxy.so
-vendor/lib64/liboemcrypto.so
 vendor/lib64/liboemservice.so
 vendor/lib64/libqorvo_uwb_params_nfcc.so
 vendor/lib64/libril_gfeature.so
